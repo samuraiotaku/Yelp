@@ -41,7 +41,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://media.giphy.com/media/RdKtAab4GCbwjf1HGV/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<iframe src="https://giphy.com/embed/RdKtAab4GCbwjf1HGV" width="480" height="364" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/RdKtAab4GCbwjf1HGV">via GIPHY</a></p>
 
 GIF created with [Giphy](http://www.giphy.com/).
 
@@ -65,4 +65,3 @@ Could not figuire out what was going on with the search bar.
     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
     See the License for the specific language governing permissions and
     limitations under the License.
->>>>>>> 1dea20ca20e216bcfeb3ece83a3be018d1891a71
