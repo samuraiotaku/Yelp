@@ -20,39 +20,27 @@ The following **stretch** features are implemented:
 
 The following **additional** features are implemented:
 
-<<<<<<< HEAD
-    for business in businesses {
-        print(business.name!)
-        print(business.address!)
-    }
-}
-```
-# Yelp
-# Yelp-App
-=======
 - [ ] List anything else that you can get done to improve the app functionality!
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.I would like clearer instructions on how to do a search bar.
+1.
 2.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<iframe src="https://giphy.com/embed/RdKtAab4GCbwjf1HGV" width="480" height="364" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/RdKtAab4GCbwjf1HGV">via GIPHY</a></p>
+<img src='https://media.giphy.com/media/RdKtAab4GCbwjf1HGV/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [Giphy](http://www.giphy.com/).
-
+GIF created with [Giphy](https://giphy.com)
 ## Notes
 
 Describe any challenges encountered while building the app.
-Could not figuire out what was going on with the search bar.
 
 ## License
 
-    Copyright [2018] [Brandon Shimizu]
+    Copyright [2018] [Brandon_Shimizu]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
