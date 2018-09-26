@@ -25,17 +25,9 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="u0u-bg-b56">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <searchBar key="tableHeaderView" contentMode="redraw" id="eWK-HC-RCG">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                    <textInputTraits key="textInputTraits"/>
-                                    <connections>
-                                        <outlet property="delegate" destination="2xI-yr-O5N" id="vpZ-hM-P7t"/>
-                                    </connections>
-                                </searchBar>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BusinessCell" rowHeight="163" id="s1E-Kh-5xJ" customClass="BusinessCell" customModule="Yelp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="84" width="375" height="163"/>
+                                        <rect key="frame" x="0.0" y="28" width="375" height="163"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="s1E-Kh-5xJ" id="aAQ-zh-W75">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="162.5"/>
@@ -138,21 +130,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="Yelp" id="93z-FR-vB4"/>
                     <connections>
-                        <outlet property="searchBar" destination="eWK-HC-RCG" id="AGW-6T-58e"/>
-                        <outlet property="searchDisplayController" destination="5gL-8t-XH2" id="23e-Ul-bpJ"/>
                         <outlet property="tableView" destination="u0u-bg-b56" id="yeY-Kf-Rjz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fgb-4b-F1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="5gL-8t-XH2">
-                    <connections>
-                        <outlet property="delegate" destination="2xI-yr-O5N" id="Xim-na-AcH"/>
-                        <outlet property="searchBar" destination="eWK-HC-RCG" id="zk4-9l-Bwx"/>
-                        <outlet property="searchContentsController" destination="2xI-yr-O5N" id="w8o-DR-R2d"/>
-                        <outlet property="searchResultsDataSource" destination="2xI-yr-O5N" id="6Kt-xV-SCj"/>
-                        <outlet property="searchResultsDelegate" destination="2xI-yr-O5N" id="MPP-UP-9Dv"/>
-                    </connections>
-                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="2476" y="357.57121439280365"/>
         </scene>
